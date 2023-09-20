@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web cua Diem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        #button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chào mừng bạn đến với trang web đơn giản</h1>
+    <button id="button">Nhấp vào đây</button>
+    <p id="message"></p>
+    <script>
+        const button = document.getElementById("button");
+        const message = document.getElementById("message");
+        
+        button.addEventListener("click", function() {
+            message.textContent = "Xin chào từ JavaScript!";
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
